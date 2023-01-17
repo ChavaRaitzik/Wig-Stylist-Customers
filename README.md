@@ -2,10 +2,10 @@
 Hi. I am a *wig stylist*, and as my business expands, I am looking for an organized system to keep track of my clients' details, preferences and upcoming appointments. 
 Please note that this table is only to keep track of my clients and not my profits.
 
-##Spec
+## Spec
 The spec is located in the file Wig Stylist Spec.sql
 
-##Deliverables
+## Deliverables
 The 4 files listed below are required to implement the requirements for the repo. The information for each one is included in the spec.
 
 - 0 Database Client.sql
@@ -13,7 +13,7 @@ The 4 files listed below are required to implement the requirements for the repo
 - 2 Data Client.sql
 - 3 Reports Client.sql
 
-##SQL Requirements
+## SQL Requirements
 The basic requirements are listed below.
 
 - Primary Key
