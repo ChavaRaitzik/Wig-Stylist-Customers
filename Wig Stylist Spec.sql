@@ -7,7 +7,6 @@ Please note that this table is only to keep track of my clients and not my profi
 I would like to keep track of my clients' names, phone numbers, preferred contact method (either call, text, or whatsapp), and total number of appointments they've had to date.
 If a client has an appointment scheduled, I would like to see the appointment's date and time. I would like to see how they want their wig styled for their appointment as well. 
 I ask all new clients how they got to me so that I can keep track of my most effective marketing. Please include a marketing forum column in the table.
-For business purposes, I would also like to know the date they were first entered into the systems.
 
 Questions:
 Q. Do you have multiple clients with the same first and last name?
@@ -20,8 +19,8 @@ Q. What is the maximum number of appointments each client can have on schedule?
 A. 3. I do not need to see past appointments. Please note that each appointment may need a different wig style. 
 Q. Are there specific style choices that you offer your clients, or they can ask for any styles?
 A. There are specific styles only. Either straight, wavy, curly, or crimpy.
-Q. Would you like to keep track of the time that your clients were entered into the system as well?
-A. No, the date is sufficient.
+Q. You want to keep track of the total number of appointments each client had in the past, or the apppointments they have on schedule?
+A. I want to keep track of the total number of appointments each client already had. (For customer service, when I look up a client, I want to see how many times she used me in the past.)
 
 Reports: 
 1) I would like to see the ways that people heard about me and how many people found out about me through each way.
