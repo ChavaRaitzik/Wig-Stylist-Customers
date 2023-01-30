@@ -7,6 +7,7 @@ create table dbo.WigStylist(
     ClientFirstName varchar(25) not null constraint ck_WigStylist_client_first_name_cannot_be_blank check(ClientFirstName > ''),
     ClientLastName varchar(25) not null constraint ck_WigStylist_client_last_name_cannot_be_blank check(ClientLastName > ''),
     ClientNickname varchar(25) not null default '',
+-- SM "ClientPhoneNumber not like '%[^0-9]%'" is using regex (Regular Expression) to enforce that only digits. I found this the easiest way. Maybe you wont understand it, but regex is a basic search pattern for all programing languages and more. see https://en.wikipedia.org/wiki/Regular_expression
     ClientPhoneNumber char(10) not null constraint ck_WigStylist_client_phone_number_must_be_9_digits check(len(ClientPhoneNumber) = 10 and ClientPhoneNumber not like '%[^0-9]%'),
     PreferredContactMethod varchar(8) not null constraint ck_WigStylist_preferred_contact_must_be_in_call_text_whatsapp check(PreferredContactMethod in('Call','Text','Whatsapp')),
     NumAppointments int not null constraint ck_WigStylists_num_appointments_cannot_be_negative check(NumAppointments >= 0),
